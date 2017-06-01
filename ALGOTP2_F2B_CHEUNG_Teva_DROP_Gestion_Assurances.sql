@@ -1,0 +1,14 @@
+delete from IMPLICATION;
+delete from ACCIDENT;
+delete from VEHICULE;
+delete from CONTRAT;
+delete from CLIENT;
+drop index XCLIENT_NUMCLIENT;
+drop index XCONTRAT_NUMCTR;
+drop index XVEHICULE_NUMVEH;
+drop index XACCIDENT_NUMACC;
+drop table IMPLICATION;
+drop table ACCIDENT;
+drop table VEHICULE;
+drop table CONTRAT; 
+drop table CLIENT;
